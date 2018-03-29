@@ -1,0 +1,7 @@
+<div class="container-fluid">
+  <p>Click to notify the other Component</p>
+  <p>Alert will show when notification send</p>
+  <p>Will complete the "Hello World" sentence</p>
+  <app-child (notifyParent)="getNotification($event)"></app-child>
+  <p>Hello, {{name}}!</p>
+</div>
